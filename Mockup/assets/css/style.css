@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.back_scuro, button {
+    background-color: #364759;
+}
+.back_logo {
+    background-color: #222f3f;
+}
+/* Elementi dell'header */
+#logo_alto {
+    height: 4.5vw;
+}
+header img { 
+    width: 9vw;
+    margin-left: 2em;
+    padding-top: 0.4vw;
+}
+#bottoni {
+    padding-left: 2em;
+}
+#bottoni button {
+    border: none;
+    padding-right: 1vw;
+    height: 2.5em;
+    margin-bottom: 0.2em;
+}
+#bottoni a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+}
+/* elementi della main */
+main {
+    text-align: center;
+    padding: 2em 2em 0em 2em;
+    background-color: #e9edee;
+}
+#arancione {
+    background-color: #f56600;
+    color: white;
+    text-transform: capitalize;
+    padding: 0.5em;
+}
+#arancione h3 {
+    font-size: 1.4em;
+    padding: 0.2em;
+}
+#holiday {
+    background-color: black;
+    background-image: url(../images/bg-image.png);
+    background-size: 93%;
+    height: 14vw;
+    margin: 2em 0 3em 0;
+    color: white;
+    border-top: 1px solid black ;
+    font-weight: bold;
+}
+#holiday h1 {
+    padding-top: 5vw;
+    font-size: 2.5vw;
+    
+}
+#holiday p {
+    padding-top: 1.8vw;
+    font-size: 1.2vw;
+}
+
+#titolino {
+    text-align: left;
+    font-size: 1.8em;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+    
+}
+main a {
+    font-size: 0.8em;
+    color: #266671;
+    margin-left: 0.5em;
+    text-decoration: none;
+}
+#fotovarie {
+    padding: 2em;
+    background-color: white;
+}
+#fotovarie img {
+    width: 21vw;
+    border-radius: 30px;  
+    height: 25vw;
+    object-fit: cover;
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+.fotodue {
+    margin: 0 3em 0 3em;
+}
+.fototre {
+    margin-right: 3em;
+}
+
+/* foto grandi */
+.foto_grandi {
+    width: 100%;
+    padding-bottom: 0.5em;  
+}
+#prima_foto_grande {
+    margin-top: 2em;
+}
+figcaption {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 2.5vw;
+}
+/*  footer  */
+footer {
+    text-align: center;
+}
+#primo_blocco_footer {
+    height: 3.5em;
+    padding-top: 1.3em;
+}
+#primo_blocco_footer button {
+    border: none;
+}
+#primo_blocco_footer a {
+    color: white;
+    font-size: 1.8em;
+}
+#secondo_blocco_footer {
+    height: 11em;
+    padding-top: 4em;
+}
+#secondo_blocco_footer img {
+    width: 15em;
+}
